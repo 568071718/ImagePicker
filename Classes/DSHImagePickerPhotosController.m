@@ -431,7 +431,6 @@ static const NSNotificationName _DSHImagePickerPhotosControllerCollectionPopupDi
 }
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath; {
-    __weak typeof(self) _self = self;
     _DSHImagePickerPhotosControllerCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"_DSHImagePickerPhotosControllerCell" forIndexPath:indexPath];
     cell.selectButton.hidden = YES;
     PHAsset *rowData = _listData[indexPath.row];

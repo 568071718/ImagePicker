@@ -87,7 +87,9 @@
         [vc setClickedDownButtonBlock:^(UIImage * _Nonnull image) {
             [picker dismissViewControllerAnimated:NO completion:nil];
             DSHPhotoResult *result = [[DSHPhotoResult alloc] init];
-            result.asset = info[UIImagePickerControllerPHAsset];
+            if (@available(iOS 11.0, *)) {
+                result.asset = info[UIImagePickerControllerPHAsset];
+            }
             result.image = image;
             [_self.imagePicker completImages:@[result]];
         }];
@@ -95,7 +97,9 @@
     } else if (self.imagePicker.mode == DSHImagePickerModeImageCamera) {
         [picker dismissViewControllerAnimated:NO completion:nil];
         DSHPhotoResult *result = [[DSHPhotoResult alloc] init];
-        result.asset = info[UIImagePickerControllerPHAsset];
+        if (@available(iOS 11.0, *)) {
+            result.asset = info[UIImagePickerControllerPHAsset];
+        }
         result.image = resultImage;
         [self.imagePicker completImages:@[result]];
     }

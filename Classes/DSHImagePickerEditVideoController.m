@@ -539,10 +539,11 @@
         return;
     }
     
+    __weak typeof(self) _self = self;
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         CMTime time = CMTimeMake(second, 1);
         NSError *error;
-        CGImageRef imageRef = [_imageGenerator copyCGImageAtTime:time actualTime:NULL error:&error];
+        CGImageRef imageRef = [_self.imageGenerator copyCGImageAtTime:time actualTime:NULL error:&error];
         UIImage *result = [UIImage imageWithCGImage:imageRef];
         CGImageRelease(imageRef);
         if (!error && result) {
