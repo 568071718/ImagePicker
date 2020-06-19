@@ -11,7 +11,6 @@
 
 // Public
 #import "DSHImageScrollView.h"
-#import "DSHImagePickerCamera.h"
 #import "DSHImagePickerProgressView.h"
 #import "DSHImagePickerTimer.h"
 #import "DSHImagePickerImageManager.h"

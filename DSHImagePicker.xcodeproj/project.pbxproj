@@ -19,7 +19,6 @@
 		89423241248634A000FF4096 /* DSHImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423228248634A000FF4096 /* DSHImagePicker.m */; };
 		89423242248634A000FF4096 /* DSHImagePickerImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423229248634A000FF4096 /* DSHImagePickerImageManager.m */; };
 		89423243248634A000FF4096 /* DSHImagePickerPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942322A248634A000FF4096 /* DSHImagePickerPreviewController.m */; };
-		89423244248634A000FF4096 /* DSHImagePickerCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942322D248634A000FF4096 /* DSHImagePickerCamera.m */; };
 		89423245248634A000FF4096 /* DSHImagePickerPermissionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942322E248634A000FF4096 /* DSHImagePickerPermissionController.m */; };
 		89423246248634A000FF4096 /* DSHImagePickerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942322F248634A000FF4096 /* DSHImagePickerProgressView.m */; };
 		89423247248634A000FF4096 /* DSHImagePickerEditImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423230248634A000FF4096 /* DSHImagePickerEditImageController.m */; };
@@ -47,7 +46,6 @@
 		89423215248633E800FF4096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8942321D248634A000FF4096 /* DSHImagePickerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerProgressView.h; sourceTree = "<group>"; };
 		8942321E248634A000FF4096 /* DSHImagePickerPermissionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerPermissionController.h; sourceTree = "<group>"; };
-		8942321F248634A000FF4096 /* DSHImagePickerCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerCamera.h; sourceTree = "<group>"; };
 		89423220248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerEditVideoTimeRangeView.m; sourceTree = "<group>"; };
 		89423221248634A000FF4096 /* DSHImagePickerEditImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerEditImageController.h; sourceTree = "<group>"; };
 		89423222248634A000FF4096 /* UIImage+DSHImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSHImagePicker.m"; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 		8942322A248634A000FF4096 /* DSHImagePickerPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerPreviewController.m; sourceTree = "<group>"; };
 		8942322B248634A000FF4096 /* DSHImagePickerPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerPhotosController.h; sourceTree = "<group>"; };
 		8942322C248634A000FF4096 /* DSHImagePickerTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerTimer.h; sourceTree = "<group>"; };
-		8942322D248634A000FF4096 /* DSHImagePickerCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerCamera.m; sourceTree = "<group>"; };
 		8942322E248634A000FF4096 /* DSHImagePickerPermissionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerPermissionController.m; sourceTree = "<group>"; };
 		8942322F248634A000FF4096 /* DSHImagePickerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerProgressView.m; sourceTree = "<group>"; };
 		89423230248634A000FF4096 /* DSHImagePickerEditImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerEditImageController.m; sourceTree = "<group>"; };
@@ -143,8 +140,6 @@
 				8942322F248634A000FF4096 /* DSHImagePickerProgressView.m */,
 				8942321E248634A000FF4096 /* DSHImagePickerPermissionController.h */,
 				8942322E248634A000FF4096 /* DSHImagePickerPermissionController.m */,
-				8942321F248634A000FF4096 /* DSHImagePickerCamera.h */,
-				8942322D248634A000FF4096 /* DSHImagePickerCamera.m */,
 				89423231248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.h */,
 				89423220248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.m */,
 				89423221248634A000FF4096 /* DSHImagePickerEditImageController.h */,
@@ -294,7 +289,6 @@
 				89423240248634A000FF4096 /* DSHImagePickerEditVideoController.m in Sources */,
 				8942324A248634A000FF4096 /* DSHImagePickerVideoPlayer.m in Sources */,
 				89423241248634A000FF4096 /* DSHImagePicker.m in Sources */,
-				89423244248634A000FF4096 /* DSHImagePickerCamera.m in Sources */,
 				8942324B248634A000FF4096 /* DSHImagePickerPhotosController.m in Sources */,
 				89423242248634A000FF4096 /* DSHImagePickerImageManager.m in Sources */,
 				8942323F248634A000FF4096 /* UIImage+DSHImagePicker.m in Sources */,
