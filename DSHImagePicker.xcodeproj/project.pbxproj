@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89423205248633E400FF4096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423204248633E400FF4096 /* AppDelegate.m */; };
+		8942320B248633E400FF4096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942320A248633E400FF4096 /* ViewController.m */; };
+		8942320E248633E400FF4096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8942320C248633E400FF4096 /* Main.storyboard */; };
+		89423210248633E800FF4096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8942320F248633E800FF4096 /* Assets.xcassets */; };
+		89423213248633E800FF4096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89423211248633E800FF4096 /* LaunchScreen.storyboard */; };
+		89423216248633E800FF4096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423215248633E800FF4096 /* main.m */; };
+		8942323E248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423220248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.m */; };
+		8942323F248634A000FF4096 /* UIImage+DSHImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423222248634A000FF4096 /* UIImage+DSHImagePicker.m */; };
+		89423240248634A000FF4096 /* DSHImagePickerEditVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423226248634A000FF4096 /* DSHImagePickerEditVideoController.m */; };
+		89423241248634A000FF4096 /* DSHImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423228248634A000FF4096 /* DSHImagePicker.m */; };
+		89423242248634A000FF4096 /* DSHImagePickerImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423229248634A000FF4096 /* DSHImagePickerImageManager.m */; };
+		89423243248634A000FF4096 /* DSHImagePickerPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942322A248634A000FF4096 /* DSHImagePickerPreviewController.m */; };
+		89423244248634A000FF4096 /* DSHImagePickerCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942322D248634A000FF4096 /* DSHImagePickerCamera.m */; };
+		89423245248634A000FF4096 /* DSHImagePickerPermissionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942322E248634A000FF4096 /* DSHImagePickerPermissionController.m */; };
+		89423246248634A000FF4096 /* DSHImagePickerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942322F248634A000FF4096 /* DSHImagePickerProgressView.m */; };
+		89423247248634A000FF4096 /* DSHImagePickerEditImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423230248634A000FF4096 /* DSHImagePickerEditImageController.m */; };
+		89423249248634A000FF4096 /* DSHImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423233248634A000FF4096 /* DSHImageScrollView.m */; };
+		8942324A248634A000FF4096 /* DSHImagePickerVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423234248634A000FF4096 /* DSHImagePickerVideoPlayer.m */; };
+		8942324B248634A000FF4096 /* DSHImagePickerPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423236248634A000FF4096 /* DSHImagePickerPhotosController.m */; };
+		8942324C248634A000FF4096 /* DSHImagePickerTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89423237248634A000FF4096 /* DSHImagePickerTimer.m */; };
+		8942324D248634A000FF4096 /* DSHImagePickerHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942323A248634A000FF4096 /* DSHImagePickerHUD.m */; };
+		DB8E1567C7FF434B56A710F5 /* libPods-DSHImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C8388DF784FC2D3324FF1D /* libPods-DSHImagePicker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		123ADFA7851841D1B0F64228 /* Pods-DSHImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSHImagePicker.release.xcconfig"; path = "Target Support Files/Pods-DSHImagePicker/Pods-DSHImagePicker.release.xcconfig"; sourceTree = "<group>"; };
+		3E70B6E9C305A2F28F8CFAE8 /* Pods-DSHImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSHImagePicker.debug.xcconfig"; path = "Target Support Files/Pods-DSHImagePicker/Pods-DSHImagePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		45C8388DF784FC2D3324FF1D /* libPods-DSHImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DSHImagePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89423200248633E400FF4096 /* DSHImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSHImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89423203248633E400FF4096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89423204248633E400FF4096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89423209248633E400FF4096 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8942320A248633E400FF4096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8942320D248633E400FF4096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8942320F248633E800FF4096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89423212248633E800FF4096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89423214248633E800FF4096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89423215248633E800FF4096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8942321D248634A000FF4096 /* DSHImagePickerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerProgressView.h; sourceTree = "<group>"; };
+		8942321E248634A000FF4096 /* DSHImagePickerPermissionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerPermissionController.h; sourceTree = "<group>"; };
+		8942321F248634A000FF4096 /* DSHImagePickerCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerCamera.h; sourceTree = "<group>"; };
+		89423220248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerEditVideoTimeRangeView.m; sourceTree = "<group>"; };
+		89423221248634A000FF4096 /* DSHImagePickerEditImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerEditImageController.h; sourceTree = "<group>"; };
+		89423222248634A000FF4096 /* UIImage+DSHImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSHImagePicker.m"; sourceTree = "<group>"; };
+		89423223248634A000FF4096 /* DSHImagePickerVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerVideoPlayer.h; sourceTree = "<group>"; };
+		89423224248634A000FF4096 /* DSHImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImageScrollView.h; sourceTree = "<group>"; };
+		89423226248634A000FF4096 /* DSHImagePickerEditVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerEditVideoController.m; sourceTree = "<group>"; };
+		89423227248634A000FF4096 /* DSHImagePickerHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerHUD.h; sourceTree = "<group>"; };
+		89423228248634A000FF4096 /* DSHImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePicker.m; sourceTree = "<group>"; };
+		89423229248634A000FF4096 /* DSHImagePickerImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerImageManager.m; sourceTree = "<group>"; };
+		8942322A248634A000FF4096 /* DSHImagePickerPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerPreviewController.m; sourceTree = "<group>"; };
+		8942322B248634A000FF4096 /* DSHImagePickerPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerPhotosController.h; sourceTree = "<group>"; };
+		8942322C248634A000FF4096 /* DSHImagePickerTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerTimer.h; sourceTree = "<group>"; };
+		8942322D248634A000FF4096 /* DSHImagePickerCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerCamera.m; sourceTree = "<group>"; };
+		8942322E248634A000FF4096 /* DSHImagePickerPermissionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerPermissionController.m; sourceTree = "<group>"; };
+		8942322F248634A000FF4096 /* DSHImagePickerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerProgressView.m; sourceTree = "<group>"; };
+		89423230248634A000FF4096 /* DSHImagePickerEditImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerEditImageController.m; sourceTree = "<group>"; };
+		89423231248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerEditVideoTimeRangeView.h; sourceTree = "<group>"; };
+		89423233248634A000FF4096 /* DSHImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImageScrollView.m; sourceTree = "<group>"; };
+		89423234248634A000FF4096 /* DSHImagePickerVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerVideoPlayer.m; sourceTree = "<group>"; };
+		89423235248634A000FF4096 /* UIImage+DSHImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DSHImagePicker.h"; sourceTree = "<group>"; };
+		89423236248634A000FF4096 /* DSHImagePickerPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerPhotosController.m; sourceTree = "<group>"; };
+		89423237248634A000FF4096 /* DSHImagePickerTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerTimer.m; sourceTree = "<group>"; };
+		89423238248634A000FF4096 /* DSHImagePickerPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerPreviewController.h; sourceTree = "<group>"; };
+		89423239248634A000FF4096 /* DSHImagePickerImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerImageManager.h; sourceTree = "<group>"; };
+		8942323A248634A000FF4096 /* DSHImagePickerHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHImagePickerHUD.m; sourceTree = "<group>"; };
+		8942323B248634A000FF4096 /* DSHImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePicker.h; sourceTree = "<group>"; };
+		8942323C248634A000FF4096 /* DSHImagePickerEditVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHImagePickerEditVideoController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		894231FD248633E400FF4096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8E1567C7FF434B56A710F5 /* libPods-DSHImagePicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C188AB6EA556387B9C04311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E70B6E9C305A2F28F8CFAE8 /* Pods-DSHImagePicker.debug.xcconfig */,
+				123ADFA7851841D1B0F64228 /* Pods-DSHImagePicker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		894231F7248633E400FF4096 = {
+			isa = PBXGroup;
+			children = (
+				8942321C248634A000FF4096 /* Classes */,
+				8942323D248634A000FF4096 /* Resources */,
+				89423202248633E400FF4096 /* DSHImagePicker */,
+				89423201248633E400FF4096 /* Products */,
+				1C188AB6EA556387B9C04311 /* Pods */,
+				E1B23C78DC5435561223EC34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89423201248633E400FF4096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89423200248633E400FF4096 /* DSHImagePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89423202248633E400FF4096 /* DSHImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				89423203248633E400FF4096 /* AppDelegate.h */,
+				89423204248633E400FF4096 /* AppDelegate.m */,
+				89423209248633E400FF4096 /* ViewController.h */,
+				8942320A248633E400FF4096 /* ViewController.m */,
+				8942320C248633E400FF4096 /* Main.storyboard */,
+				8942320F248633E800FF4096 /* Assets.xcassets */,
+				89423211248633E800FF4096 /* LaunchScreen.storyboard */,
+				89423214248633E800FF4096 /* Info.plist */,
+				89423215248633E800FF4096 /* main.m */,
+			);
+			path = DSHImagePicker;
+			sourceTree = "<group>";
+		};
+		8942321C248634A000FF4096 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8942323B248634A000FF4096 /* DSHImagePicker.h */,
+				89423228248634A000FF4096 /* DSHImagePicker.m */,
+				8942321D248634A000FF4096 /* DSHImagePickerProgressView.h */,
+				8942322F248634A000FF4096 /* DSHImagePickerProgressView.m */,
+				8942321E248634A000FF4096 /* DSHImagePickerPermissionController.h */,
+				8942322E248634A000FF4096 /* DSHImagePickerPermissionController.m */,
+				8942321F248634A000FF4096 /* DSHImagePickerCamera.h */,
+				8942322D248634A000FF4096 /* DSHImagePickerCamera.m */,
+				89423231248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.h */,
+				89423220248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.m */,
+				89423221248634A000FF4096 /* DSHImagePickerEditImageController.h */,
+				89423230248634A000FF4096 /* DSHImagePickerEditImageController.m */,
+				89423235248634A000FF4096 /* UIImage+DSHImagePicker.h */,
+				89423222248634A000FF4096 /* UIImage+DSHImagePicker.m */,
+				89423223248634A000FF4096 /* DSHImagePickerVideoPlayer.h */,
+				89423234248634A000FF4096 /* DSHImagePickerVideoPlayer.m */,
+				89423224248634A000FF4096 /* DSHImageScrollView.h */,
+				89423233248634A000FF4096 /* DSHImageScrollView.m */,
+				8942323C248634A000FF4096 /* DSHImagePickerEditVideoController.h */,
+				89423226248634A000FF4096 /* DSHImagePickerEditVideoController.m */,
+				89423227248634A000FF4096 /* DSHImagePickerHUD.h */,
+				8942323A248634A000FF4096 /* DSHImagePickerHUD.m */,
+				89423239248634A000FF4096 /* DSHImagePickerImageManager.h */,
+				89423229248634A000FF4096 /* DSHImagePickerImageManager.m */,
+				89423238248634A000FF4096 /* DSHImagePickerPreviewController.h */,
+				8942322A248634A000FF4096 /* DSHImagePickerPreviewController.m */,
+				8942322B248634A000FF4096 /* DSHImagePickerPhotosController.h */,
+				89423236248634A000FF4096 /* DSHImagePickerPhotosController.m */,
+				8942322C248634A000FF4096 /* DSHImagePickerTimer.h */,
+				89423237248634A000FF4096 /* DSHImagePickerTimer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8942323D248634A000FF4096 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1B23C78DC5435561223EC34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C8388DF784FC2D3324FF1D /* libPods-DSHImagePicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		894231FF248633E400FF4096 /* DSHImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89423219248633E800FF4096 /* Build configuration list for PBXNativeTarget "DSHImagePicker" */;
+			buildPhases = (
+				03723678B8FD4B52E715A0A2 /* [CP] Check Pods Manifest.lock */,
+				894231FC248633E400FF4096 /* Sources */,
+				894231FD248633E400FF4096 /* Frameworks */,
+				894231FE248633E400FF4096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSHImagePicker;
+			productName = DSHImagePicker;
+			productReference = 89423200248633E400FF4096 /* DSHImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		894231F8248633E400FF4096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "路";
+				TargetAttributes = {
+					894231FF248633E400FF4096 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 894231FB248633E400FF4096 /* Build configuration list for PBXProject "DSHImagePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 894231F7248633E400FF4096;
+			productRefGroup = 89423201248633E400FF4096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				894231FF248633E400FF4096 /* DSHImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		894231FE248633E400FF4096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89423213248633E800FF4096 /* LaunchScreen.storyboard in Resources */,
+				89423210248633E800FF4096 /* Assets.xcassets in Resources */,
+				8942320E248633E400FF4096 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03723678B8FD4B52E715A0A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSHImagePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		894231FC248633E400FF4096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8942320B248633E400FF4096 /* ViewController.m in Sources */,
+				89423243248634A000FF4096 /* DSHImagePickerPreviewController.m in Sources */,
+				8942323E248634A000FF4096 /* DSHImagePickerEditVideoTimeRangeView.m in Sources */,
+				89423246248634A000FF4096 /* DSHImagePickerProgressView.m in Sources */,
+				89423249248634A000FF4096 /* DSHImageScrollView.m in Sources */,
+				8942324D248634A000FF4096 /* DSHImagePickerHUD.m in Sources */,
+				89423245248634A000FF4096 /* DSHImagePickerPermissionController.m in Sources */,
+				89423205248633E400FF4096 /* AppDelegate.m in Sources */,
+				89423247248634A000FF4096 /* DSHImagePickerEditImageController.m in Sources */,
+				89423240248634A000FF4096 /* DSHImagePickerEditVideoController.m in Sources */,
+				8942324A248634A000FF4096 /* DSHImagePickerVideoPlayer.m in Sources */,
+				89423241248634A000FF4096 /* DSHImagePicker.m in Sources */,
+				89423244248634A000FF4096 /* DSHImagePickerCamera.m in Sources */,
+				8942324B248634A000FF4096 /* DSHImagePickerPhotosController.m in Sources */,
+				89423242248634A000FF4096 /* DSHImagePickerImageManager.m in Sources */,
+				8942323F248634A000FF4096 /* UIImage+DSHImagePicker.m in Sources */,
+				89423216248633E800FF4096 /* main.m in Sources */,
+				8942324C248634A000FF4096 /* DSHImagePickerTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8942320C248633E400FF4096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8942320D248633E400FF4096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89423211248633E800FF4096 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89423212248633E800FF4096 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89423217248633E800FF4096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89423218248633E800FF4096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8942321A248633E800FF4096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E70B6E9C305A2F28F8CFAE8 /* Pods-DSHImagePicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8WF5UASAW;
+				INFOPLIST_FILE = DSHImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8942321B248633E800FF4096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 123ADFA7851841D1B0F64228 /* Pods-DSHImagePicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8WF5UASAW;
+				INFOPLIST_FILE = DSHImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		894231FB248633E400FF4096 /* Build configuration list for PBXProject "DSHImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89423217248633E800FF4096 /* Debug */,
+				89423218248633E800FF4096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89423219248633E800FF4096 /* Build configuration list for PBXNativeTarget "DSHImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8942321A248633E800FF4096 /* Debug */,
+				8942321B248633E800FF4096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 894231F8248633E400FF4096 /* Project object */;
+}
